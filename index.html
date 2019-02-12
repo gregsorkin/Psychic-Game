@@ -1,0 +1,53 @@
+<!DOCTYPE hmtl>
+<html>
+    <head>
+        <meta lang="eng-us" charset="utf-8">
+
+        <title>Psychic Game | Greg Sorkin</title>
+        <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+            <!-- reset.css was removing all style, even with my sheet after, but normalize.css seems to work better. -->
+
+        <link rel="stylesheet" type="text/css" href="assets/css/normalize.css"> <!-- Reset browser default styles -->
+        <!-- Bootstrap Styles -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css"> <!-- My style sheet -->
+    </head>
+
+    <body>
+    
+    <div class="p-5 container wrapper">
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="https://cdn.cnn.com/cnnnext/dam/assets/171227184542-crystal-ball-question-mark-stock-exlarge-tease.jpg" class="img-thumbnail crystalBall" alt="Who's the psychic here?">
+            </div>
+            <div class="col-lg-8">    
+                <div class="gameBox">    
+                    <h1>THE PSYCHIC GAME</h1>
+    
+                    <p>Guess the letter I'm thinking of.</p>
+                    <p class="sub">Press a letter on the keyboard to begin.</p>
+    
+                    <hr width="25%" align="left" class="horizBar">
+
+                    <div>
+                        <p id="winsCount"></p>
+                        <p id="lossesCount"></p>
+                        <p id="guessesCount"></p>
+                        <p id="guessList"></p>
+                        <p id="guess"></p>
+                    </div>
+                </div>
+            <div class="col"></div>
+            </div>
+        </div>
+    </div>
+        
+    <div class="footer">
+        &copy; 2019 | Greg Sorkin
+    </div>
+
+    <!-- Link to the JavaScript file-->
+    <script type="text/javascript" src="assets/javascript/game.js"> </script>
+
+    </body>
+</html>
